@@ -1,66 +1,96 @@
-DocuMind AI 🧠📂
-An Intelligent Document Assistant powered by RAG (Retrieval-Augmented Generation) that answers questions from PDFs, images, and audio files.
+# DocuMind AI 🧠📂
 
+**An Intelligent Document Assistant** powered by RAG (Retrieval-Augmented Generation) that answers questions from PDFs, images, and audio files.
 
-Replace with actual demo GIF
+![Demo](https://via.placeholder.com/800x400?text=DocuMind+AI+Demo)  
+*Replace with actual demo GIF*
 
-Features ✨
-📄 Multi-Format Support: Process PDFs, images (OCR), and audio (speech-to-text)
+---
 
-🎯 Accurate Answers: DeepSeek-R1 LLM with semantic search
+## Features ✨
 
-🔒 Secure: Local processing (no data leaves your machine)
+- 📄 **Multi-Format Support**: Process PDFs, images (OCR), and audio (speech-to-text)  
+- 🎯 **Accurate Answers**: DeepSeek-R1 LLM with semantic search  
+- 🔒 **Secure**: Local processing (no data leaves your machine)  
+- 🖥️ **User-Friendly**: Streamlit web interface  
 
-🖥️ User-Friendly: Streamlit web interface
+---
 
-Installation ⚙️
-bash
-Copy
-Edit
-# Clone the repository
+## Installation ⚙️
+
+### 1. Clone the repository
+
+```bash
 git clone https://github.com/yourusername/DocuMind-AI.git
 cd DocuMind-AI
+```
 
-# Install dependencies
+### 2. Install dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
-# Install Tesseract OCR
-# For Ubuntu/Debian
+### 3. Install Tesseract OCR
+
+For Ubuntu/Debian:
+
+```bash
 sudo apt install tesseract-ocr
+```
 
-# For macOS
+For macOS:
+
+```bash
 brew install tesseract
-Usage 🚀
-bash
-Copy
-Edit
-# Start the Streamlit app
+```
+
+---
+
+## Usage 🚀
+
+Start the Streamlit app:
+
+```bash
 streamlit run app.py
-Upload documents (PDF/Images/Audio)
+```
 
-Ask questions about your files!
+Then:
 
-Tech Stack 🔧
-Component	Technology Used
-Document Processing	PyPDF2, EasyOCR, Whisper
-Embeddings	HuggingFace (all-mpnet-base-v2)
-Vector Store	FAISS
-LLM	Ollama (DeepSeek-R1)
-UI	Streamlit
+1. Upload documents (PDF, image, or audio files)  
+2. Ask questions about your content using the chat interface  
 
-Contributing 🤝
-Pull requests are welcome!
-Please refer to CONTRIBUTING.md for guidelines.
+---
 
-License 📜
-This project is licensed under the MIT License.
-See LICENSE for more information.
+## Tech Stack 🔧
 
-Customize 🛠️
-Replace the demo placeholder image with a real GIF or screenshot.
+| Component           | Technology Used                 |
+|---------------------|---------------------------------|
+| Document Processing | PyPDF2, EasyOCR, Whisper        |
+| Embeddings          | HuggingFace (all-mpnet-base-v2) |
+| Vector Store        | FAISS                           |
+| LLM                 | Ollama (DeepSeek-R1)            |
+| UI                  | Streamlit                       |
 
-Add screenshots in the /assets folder.
+---
 
-Include additional setup or environment details if needed.
+## Contributing 🤝
 
-Update repository URL and paths as necessary.
+Contributions are welcome!  
+Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+---
+
+## License 📜
+
+This project is licensed under the MIT License.  
+See the [LICENSE](LICENSE) file for details.
+
+---
+
+## Customize 🛠️
+
+- Replace the placeholder image with a real demo GIF or screenshot  
+- Add screenshots to the `/assets` folder  
+- Update the repo link and dependencies if needed  
+- Include environment setup if applicable (e.g., `.env`, configs)
